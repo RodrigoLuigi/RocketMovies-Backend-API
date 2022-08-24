@@ -1,4 +1,4 @@
-# **RocketNotes API - Projeto Backend**
+# **RocketMovies API - Projeto Backend**
 
 ### 📌 Projeto de uma **Application Programming Interface - API**, onde foi desenvolvido uma API completa utilizando Node.js e Express. Foi utilizado o Insomnia para cadastrar nossas rotas e verificar os status code das mesmas. Criação de um banco de dados utilizando SQLite, e manipulação do nosso DB utilizando a ferramenta **Beekeper Studio** juntamente com o **Query Builder Knex.js**.
 
