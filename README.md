@@ -82,6 +82,28 @@ $ npm run dev
 # O Server irá inicializar em http://localhost:3333
 ```
 
+## 🔗 Rotas ##
+
+```bash
+# [POST] Cadastra usuário
+/users
+# [PUT] Atualiza dados do usuário
+/users
+# [PATCH] Atualiza avatar do usuário
+/users/avatar
+# [GET] Lista todas as notas
+/notes
+# [GET] Detalhes da nota
+/notes/:id
+# [DEL] Deleta a nota
+/notes/:id
+# [POST] Criar nota
+/notes
+# [GET] Listar Tags
+/tags
+# [POST] Fazer login ou Iniciar sessão
+/sessions
+```
 
 &#xa0;
 
