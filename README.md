@@ -1,72 +1,90 @@
-# **RocketMovies API - Projeto Backend**
+# <h1 id="top" align="center">🎬 Rocket**Movies** 📽 API - Backend</h1>
 
-### 📌 Projeto de uma **Application Programming Interface - API**, onde foi desenvolvido uma API completa utilizando Node.js e Express. Foi utilizado o Insomnia para cadastrar nossas rotas e verificar os status code das mesmas. Criação de um banco de dados utilizando SQLite, e manipulação do nosso DB utilizando a ferramenta **Beekeper Studio** juntamente com o **Query Builder Knex.js**.
+<p align="center">
+  <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#gear-features">Features</a> &#xa0; | &#xa0;
+  <a href="#books-bibliotecas">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#-requisitos">Requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-iniciando">Iniciando</a> &#xa0; | &#xa0;
+  <a href="https://github.com/RodrigoLuigi" target="_blank">Author</a>
+</p>
 
-# <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
+<br>
 
-  Desenvolvemos toda a estrutura do nosso projeto Node em modulos separados para escalabilidade e facilitar a manutenção da nossa aplicação. Trabalhamos com o Express para requisições HTTP e rotas para acessar os arquivos do controller e funcionalidades. É uma aplicação em que o usuário poderá cadastrar notas de filmes e séries, com tags e links vinculados a nota. O usuário poderá fazer buscas de notas e tags , bem como lista-las.
+## <img id="sobre" src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-* _**Criando uma aplicação Node.js**_
-- [x]  Iniciar um projeto Node.js;
-- [x]  Adicionar Express no projeto;
-- [x]  O que é a pasta `node_modules`;
-- [x]  Rotas;
-- [x]  Métodos HTTP;
-- [x]  Route Params;
-- [x]  Query Params;
-- [x]  Instação e utilização do `nodemon`;
-- [x]  Instalação e utilização do `Insomnia`;
-- [x]  Body Params;
-- [x]  Controller;
-- [x]  HTTP Status Codes;
-- [x]  Middleware;
-- [x]  Lidar com erros na API;
+📌  Desenvolvemos toda a estrutura do projeto Node em módulos separados para escalabilidade e facilitar a manutenção da nossa aplicação. desenvolvolvimento com o Express para requisições HTTP e rotas para acessar os arquivos do controller e funcionalidades. É uma aplicação em que o usuário poderá cadastrar notas de filmes e séries, com tags e links vinculados a nota, poderá realizar pesquisa de notas bem como lista-las.
+Desenvolvido utilizando **Node.js** e **Express.** Criação de um banco de dados utilizando **SQLite**, e manipulação do DataBase utilizando a ferramenta **Beekeper Studio** juntamente com o **Query Builder Knex.js**.
 
-* _**SQL**_
-- [x]  O que é um banco de dados;
-- [x]  Como conectar um banco de dados SQLite;
-- [x]  Utilização da ferramenta Beekeper Studio;
-- [x]  Comandos DML;
-- [x]  Comandos DDL;
-- [x]  Migrations;
-- [x]  Fazer consultas no SQL;
-- [x]  Criptografar senhas no banco de dados;
-- [x]  Validações no back-end;
+Foi implementado **testes automatizados com Jest** para garantir o bom funcionamento, e foi criado um Pipeline no github para manter um sistema de integração contínua e entrega contínua do (CI/CD) da nossa aplicação.
 
-* _**Query Builder**_
-- [x]  SQL Query Builder;
-- [x]  Instalar Knex/js;
-- [x]  Configurar Knex.js;
-- [x]  NPM vs NPX;
-- [x]  Primary Key;
-- [x]  Foreign Key;
-- [x]  Cardinalidade;
-- [x]  Inner Join;
-- [x]  Map e Filter;
+## :gear: Features ##
 
-## ♻️ Environment init
+:heavy_check_mark: Cadastro de usuário\
+:heavy_check_mark: Autenticação do usuário\
+:heavy_check_mark: Atualiza perfil do usuário\
+:heavy_check_mark: Upload Avatar do usuário\
+:heavy_check_mark: Cadastro de Notas\
+:heavy_check_mark: Pesquisar por Notas\
+:heavy_check_mark: Listar Notas\
+:heavy_check_mark: Detalhes da Nota\
+:heavy_check_mark: Deletar Nota
+## 👨‍💻 Tecnologias ##
 
-- Clonando o repositório
-  **$ git clone**
+As seguintes ferramentas foram usadas neste projeto:
 
-- Instalando node_modules
-  **$ npm install**
+- [Node.js](https://nodejs.org/en/)
+- [JavaScript](https://www.w3schools.com/js/default.asp)
 
-- Inicializando projeto
-  **$ npm start**
+## :books: Bibliotecas ##
 
-- Inicializando projeto modo Desenvolvimento
-  **$ npm run dev**
+_**As seguintes bibliotecas foram utilizadas neste projeto:**_
 
-- Inicializando Migrations
-  **$ npm run migrate**
+- [Express](https://expressjs.com/pt-br/)
+- [SQLite](https://www.sqlite.org/docs.html)
+- [Knex](https://knexjs.org/)
+- [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
+- [Bcryptjs](https://www.npmjs.com/package/bcrypt)
+- [JWT - Jason Web Token](https://jwt.io/introduction)
+- [Multer](https://www.npmjs.com/package/multer)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/)
+- [Jest](https://jestjs.io/pt-BR/)
+    
+## 📝 Requisitos ##
 
-## 📚 Stack utilizada
+- [Git](https://git-scm.com) 
+- [Node](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 
-<div style="display: inline-block">
-<img align="center" alt="Logo JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
- <img align="center" alt="Logo NodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg">
- <img align="center" alt="Logo ExpressJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
- <img align="center" alt="Logo SQLite" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg">
-</div>
- 
+## :checkered_flag: Iniciando ##
+
+```bash
+# Clone este projeto
+$ git clone https://github.com/RodrigoLuigi/RocketMovies-Backend-API.git
+# Acesse o projeto
+$ cd RocketMovies-Backend-API
+
+# Instale as dependências
+$ npm install
+
+# Inicializando Migrations
+$ npm run migrate
+
+# Inicializando projeto
+$ npm start
+
+# Inicializando projeto modo Desenvolvimento
+$ npm run dev
+
+# O Server irá inicializar em http://localhost:3333
+```
+
+
+&#xa0;
+
+_**Feito por <a href="https://github.com/RodrigoLuigi" target="_blank">Rodrigo Luigi</a>**_  👨‍🚀
+
+<a href="#top">Back to top</a>
+
