@@ -13,10 +13,10 @@
 
 ## <img id="sobre" src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-📌  Desenvolvemos toda a estrutura do projeto Node em módulos separados para escalabilidade e facilitar a manutenção da nossa aplicação. desenvolvolvimento com o Express para requisições HTTP e rotas para acessar os arquivos do controller e funcionalidades. É uma aplicação em que o usuário poderá cadastrar notas de filmes e séries, com tags e links vinculados a nota, poderá realizar pesquisa de notas bem como lista-las.
+📌  Desenvolvemos toda a estrutura do projeto em módulos separados para escalabilidade e facilitar a manutenção da nossa aplicação. desenvolvolvimento com o Express para requisições HTTP e rotas para acessar os arquivos do controller e funcionalidades. É uma aplicação em que o usuário poderá cadastrar notas de filmes e séries, com tags e links vinculados a nota, poderá realizar pesquisa de notas bem como lista-las.
 Desenvolvido utilizando **Node.js** e **Express.** Criação de um banco de dados utilizando **SQLite**, e manipulação do DataBase utilizando a ferramenta **Beekeper Studio** juntamente com o **Query Builder Knex.js**.
 
-Foi implementado **testes automatizados com Jest** para garantir o bom funcionamento, e foi criado um Pipeline no github para manter um sistema de integração contínua e entrega contínua do (CI/CD) da nossa aplicação.
+Foi implementado testes automatizados com **Jest** para garantir o bom funcionamento, e foi criado um Pipeline no github para manter um sistema de integração contínua e entrega contínua do (CI/CD) da nossa aplicação.
 
 ## :gear: Features ##
 
@@ -63,6 +63,7 @@ _**As seguintes bibliotecas foram utilizadas neste projeto:**_
 ```bash
 # Clone este projeto
 $ git clone https://github.com/RodrigoLuigi/RocketMovies-Backend-API.git
+
 # Acesse o projeto
 $ cd RocketMovies-Backend-API
 
