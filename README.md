@@ -3,7 +3,7 @@
 <p align="center">
   <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#gear-features">Features</a> &#xa0; | &#xa0;
-  <a href="#books-bibliotecas">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#-requisitos">Requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-iniciando">Iniciando</a> &#xa0; | &#xa0;
   <a href="https://github.com/RodrigoLuigi" target="_blank">Author</a>
@@ -110,4 +110,3 @@ $ npm run dev
 _**Feito por <a href="https://github.com/RodrigoLuigi" target="_blank">Rodrigo Luigi</a>**_  👨‍🚀
 
 <a href="#top">Back to top</a>
-
